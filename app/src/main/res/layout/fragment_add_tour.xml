@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentAddTour">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:paddingBottom="100dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Visited Location:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/visitedLocation"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/fragment_input_style"
+            android:hint="Eg: Colombo"
+            android:textColorHint="#AEA4A4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Date Visited: "
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="120dp" />
+
+        <EditText
+            android:id="@+id/dateVisited"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/fragment_input_style"
+            android:hint="10/12/2023"
+            android:textColorHint="#AEA4A4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="300dp"
+            android:src="@drawable/calender_icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="10dp"
+            android:text="Description: "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/fragment_input_style"
+            android:hint="Description"
+            android:textColorHint="#AEA4A4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="70dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="355dp"
+            android:text="Upload Image: "
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/profile_view"
+            android:background="@drawable/layout_border"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/profile_view"
+            android:background="@drawable/layout_border"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/second_button_color"
+            android:text="Upload"
+            android:textSize="25dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="25dp"
+            />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:visibility="gone"
+             />
+
+
+
+
+
+    </FrameLayout>
+
+</FrameLayout>

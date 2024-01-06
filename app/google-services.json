@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "195465094904",
+    "firebase_url": "https://trip-at-default-rtdb.firebaseio.com",
+    "project_id": "trip-at",
+    "storage_bucket": "trip-at.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195465094904:android:cdb1c02b94e722ab20bd0d",
+        "android_client_info": {
+          "package_name": "com.faizan.tripat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV7AH0KBPOqdBQACmVcCblFdM1sgW0dPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195465094904:android:574b780b2ec5ae5020bd0d",
+        "android_client_info": {
+          "package_name": "com.faizan.tripon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV7AH0KBPOqdBQACmVcCblFdM1sgW0dPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195465094904:android:fb4878d253387cfb20bd0d",
+        "android_client_info": {
+          "package_name": "com.fzn.tripsat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV7AH0KBPOqdBQACmVcCblFdM1sgW0dPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
